@@ -28,7 +28,23 @@ public class Triangle
         color = "green";
         isVisible = false;
     }
-
+    
+    /**
+     * Create a new triangle of specified size at specified position, with specified color.
+     */
+    public Triangle(int newHeight, int newWidth, int xPos, int yPos, String newColor) {
+        height = newHeight;
+        width = newWidth;
+        xPosition = xPos;
+        yPosition = yPos;
+        color = newColor;
+        isVisible = true;
+    }
+    
+    public String getColor() {
+        return color;
+    }
+    
     /**
      * Make this triangle visible. If it was already visible, do nothing.
      */

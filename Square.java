@@ -18,15 +18,26 @@ public class Square
     /**
      * Create a new square at default position with default color.
      */
-    public Square()
-    {
+    public Square() {
         size = 60;
         xPosition = 310;
         yPosition = 120;
         color = "red";
         isVisible = false;
     }
-
+    
+    public Square(int newSize, int xPos, int yPos, String newColor) {
+        size = newSize;
+        xPosition = xPos;
+        yPosition = yPos;
+        color = newColor;
+        isVisible = true;
+    }
+    
+    public String getColor() {
+        return color;
+    }
+    
     /**
      * Make this square visible. If it was already visible, do nothing.
      */
