@@ -2,19 +2,20 @@
 Me trying to make a battle droid vs a clone trooper.
  */
 public class Picture {
+    private Square square;
+    private Circle circle;
+    private Triangle triangle;
+    private Person person;
     private boolean drawn;
     
     /**
      * Constructor for objects of class Picture
      */
     public Picture() {
-        Square square = new Square();
-        Circle circle = new Circle();
-        Triangle triangle = new Triangle();
-        Person person = new Person();
+        
         drawn = false;
     }
-
+    
     /**
      * Draw this picture.
      */
