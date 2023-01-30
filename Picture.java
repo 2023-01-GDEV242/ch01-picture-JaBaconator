@@ -12,7 +12,10 @@ public class Picture {
      * Constructor for objects of class Picture
      */
     public Picture() {
-        
+        square = new Square(100, 30, 100, "tan");
+        circle = new Circle(10, 60, 60, "yellow");
+        triangle = new Triangle(10, 10, 20, 20, "green");
+        person = new Person(20, 20, 40, 40, "white");
         drawn = false;
     }
     
@@ -20,7 +23,7 @@ public class Picture {
      * Draw this picture.
      */
     public void draw() {
-        if(!drawn){
+        if(!(drawn == true)){
             drawn = true;
         }
     }

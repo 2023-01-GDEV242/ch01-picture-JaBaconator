@@ -31,7 +31,7 @@ public class Square
         xPosition = xPos;
         yPosition = yPos;
         color = newColor;
-        isVisible = true;
+        isVisible = false;
     }
     
     public String getColor() {
