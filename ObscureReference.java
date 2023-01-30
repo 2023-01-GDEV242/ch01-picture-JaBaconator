@@ -1,7 +1,7 @@
 /*
 Me trying to make a battle droid vs a clone trooper.
  */
-public class Picture {
+public class ObscureReference {
     private Square square;
     private Square sky;
     private Circle circle;
@@ -14,7 +14,7 @@ public class Picture {
     /**
      * Constructor for objects of class Picture
      */
-    public Picture() {
+    public ObscureReference() {
         square = new Square(1000, 0, 150, "tan");
         sky = new Square(1000, 0, 0, "blue");
         ccircle = new Circle(24, 340, 40, "orange");
