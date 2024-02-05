@@ -66,4 +66,18 @@ public class ObscureReference {
         person.changeColor("white");
         face.changeColor("yellow");
     }
+    public void sunSet()
+    {
+       for(int i = 0; i < 20; i++){
+           ccircle.moveDown();
+           circle.moveDown();
+       }
+    }
+    public void moonWalk()
+    {
+        for(int i = 0; i < 20; i++){
+           person.moveRight();
+           face.moveRight();
+       }
+    }
 }
